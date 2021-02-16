@@ -11,7 +11,7 @@ import RxSwift
 
 public class DefaultGameRepository: NSObject {
     
-    fileprivate let remote: RemoteGameSource
+    private let remote: RemoteGameSource
 
     public init(remote: RemoteGameSource) {
       self.remote = remote
