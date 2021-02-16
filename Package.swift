@@ -17,9 +17,10 @@ let package = Package(
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.2.0")),
         .package(name: "Realm", url: "https://github.com/realm/realm-cocoa.git", from: "5.4.4"),
 //        .package(name: "coreCobaTestPodspec", url: "https://github.com/billmachine/coreCobaTestPodspec.git", from: "1.0.2"),
-
+        .package(url: "https://github.com/billmachine/CategoryPackage.git", .upToNextMajor(from: "1.0.0")),
+        
 //        .package(path: "../C"),
-        .package(path: "../CategoryPackage"),
+//        .package(path: "../CategoryPackage"),
 //        .package(path: "../CoreOfflineAppTestKit")
         
         .package(url: "https://github.com/billmachine/CoreOfflineAppTestKit.git", from: "1.0.0"),
